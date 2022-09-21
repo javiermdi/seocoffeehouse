@@ -51,6 +51,9 @@ nav li a:hover {
   align-items: center;
   gap: 30px;
 }
+.productos.produBollo {
+  display: flex;
+}
 
 .videoIn {
   width: 50%;
@@ -79,7 +82,7 @@ nav li a:hover {
 }
 
 @media (min-width: 476px) {
-  .produ {
+  .produBollo {
     justify-content: center;
     gap: 5px;
     margin-bottom: 1rem;
@@ -87,10 +90,13 @@ nav li a:hover {
 }
 @media (min-width: 476px) {
   .productos__cafe {
-    display: list-item;
+    display: flex;
+    justify-items: center;
+    gap: 5px;
   }
   .productos__pan {
-    display: list-item;
+    display: flex;
+    justify-items: center;
   }
 }
 @media (max-widht: 476px) {
