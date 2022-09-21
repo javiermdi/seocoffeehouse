@@ -53,6 +53,7 @@ nav li a:hover {
 }
 .productos.produBollo {
   display: flex;
+  align-items: center;
 }
 
 .videoIn {
@@ -83,7 +84,9 @@ nav li a:hover {
 
 @media (min-width: 476px) {
   .produBollo {
+    display: flex;
     justify-content: center;
+    align-items: center;
     gap: 5px;
     margin-bottom: 1rem;
   }
@@ -92,6 +95,7 @@ nav li a:hover {
   .productos__cafe {
     display: flex;
     justify-items: center;
+    align-items: center;
     gap: 5px;
   }
   .productos__pan {
