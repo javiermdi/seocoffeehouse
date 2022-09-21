@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto-Coffe house</title>
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../main.scss/main.css">
     <meta name="description" content="Cafe de especialidad y pasteleria con materia prima organica">
     <meta name="keywords"
         content="cafe,bolleria,pasteleria,materia prima,especialidad,cafe importado,croissant,harina,arte latte,capuccino,contacto,telefono,redes sociales,facebook,instagram">
@@ -52,41 +52,18 @@
         <h2>Contactanos</h2>
     </div>
     <main class="contactanos">
-        <div class="contacto">
-            <div class="contacto__wp">
-                <img src="../assets/wplogo.webp" width="50" height="50" alt="whatsapp">
-                <a href="https://web.whatsapp.com/" target="_blank">549 15 000 0000</a>
-            </div>
-            <div class="contacto__fb">
-                <img src="../assets/facebook-logo-icon-voronezh-russia-november-square-blue-color-164585769.jpeg"
-                    width="50" height="50" alt="facebook">
-                <a href="https://www.facebook.com/" target="_blank">/CoffeeHouse</a>
-            </div>
-            <div class="contacto__in">
-                <img src="../assets/Instagram_logo_2016.svg.png" width="50" height="50" alt="instagram">
-                <a href="https://www.instagram.com/" target="_blank">@Cofeehouse</a>
-            </div>
-        </div>
-
         <form action="" class="contacto__form">
             <fieldset style="width:250px;" class="contacto_int">
                 <legend>Contactanos</legend>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" placeholder="Nombre">
-                <br>
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" placeholder="Apellido">
-                <br>
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" name="nombre" placeholder="Ex. Juan Perez">
                 <label for="email">Email</label>
-                <input type="text" name="email" placeholder="Email">
-                <br>
+                <input type="text" name="email" placeholder="Ex. cafe@cafe.com">
                 <label for="telefono">Teléfono</label>
                 <input type="text" name="telefono" placeholder="Teléfono">
-                <br>
                 <p>Mensaje</p>
-                <textarea name="mensaje" id="" cols="30" rows="10">
+                <textarea name="mensaje" id="" cols="20" rows="3">
             </textarea>
-                <br>
                 <input type="submit" value="Enviar" class="enviar">
             </fieldset>
         </form>
@@ -96,7 +73,7 @@
     </div>
 
     <div class="container text-center">
-        <div class="row row-cols-3">
+        <div class="row row-cols-3 pt-4 pb-4">
             <div class="col">
                 <div class="contacto__wp">
                     <img src="../assets/wplogo.webp" width="50" height="50" alt="whatsapp">
@@ -119,17 +96,9 @@
         </div>
     </div>
 
-    <footer class="footer">
-        <div>
-            <img src="../assets/Instagram_logo_2016.svg.png" width="30" height="30" alt="intagram">
-            <a href="https://www.instagram.com" target="_blank">Nuestro Instagram</a>
-            <img src="../assets/facebook-logo-icon-voronezh-russia-november-square-blue-color-164585769.jpeg" width="30"
-                height="30" alt="facebook">
-            <a href="https://m.facebook.com/?_rdr" target="_blank">Nuestro Facebook</a>
-        </div>
-        <div>
-            ©todos los derechos reservados
-        </div>
+    <!--footer-->
+    <footer class="container-fluid bg-light text-center p-3">
+        <p class="small">2022 Desarrollo web-CODER HOUSE-CAFETERIA Javier Diaz</p>
     </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

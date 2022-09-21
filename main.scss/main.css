@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 
-.extend, .extend1 {
-  border: 5px;
-  text-align: center;
-  background-color: white;
-  justify-content: center;
-}
-
 .ext {
   width: 300px;
   display: flex;
@@ -59,9 +52,14 @@ nav li a:hover {
   gap: 30px;
 }
 
+.videoIn {
+  width: 50%;
+  height: 50%;
+}
+
 .wp {
   position: fixed;
-  bottom: 50px;
+  bottom: 55px;
   right: 0;
 }
 
@@ -101,4 +99,78 @@ nav li a:hover {
     width: 100%;
     justify-content: end;
   }
+}
+.contactanos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.contactanos .contacto {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 66px;
+}
+.contactanos .contacto.contacto__fb a {
+  text-decoration: none;
+  border: 10px;
+  border-radius: 10px;
+  background-color: #efc07a;
+  padding: 10px;
+  margin: 10px;
+}
+.contactanos .contacto.contacto__wp a {
+  text-decoration: none;
+  border: 10px;
+  border-radius: 10px;
+  background-color: #efc07a;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+.contactanos .contacto.contacto__in a {
+  text-decoration: none;
+  border: 10px;
+  border-radius: 10px;
+  background-color: #efc07a;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contacto__form {
+  grid-column: 3/4;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 5px;
+  border: 10px;
+  border-color: black;
+  background-color: #e4d3b8;
+  text-align: center;
+  padding: 1rem;
+}
+.contacto__form.contacto_int {
+  margin-left: 30%;
+  margin: auto;
+  padding: auto;
+}
+.contacto__form.enviar {
+  background-color: #efc07a;
+  color: black;
+  border: 10px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.ubicacion__dir {
+  font-size: 2rem;
+  grid-column: 2/3;
+  text-decoration: none;
+  border: 10px;
+  border-radius: 10px;
+  background-color: #efc07a;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
